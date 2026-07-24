@@ -294,7 +294,7 @@ class ConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
 
     async def async_step_import(self, import_data: dict) -> FlowResult:
         """Handle configuration via YAML import."""
-        return await self.async_step_user(import_data)
+        return await self.async_step_manual(import_data)
 
     @staticmethod
     @callback

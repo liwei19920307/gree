@@ -2,7 +2,7 @@
   "domain": "gree",
   "name": "Gree A/C",
   "version": "3.6.0",
-  "documentation": "https://github.com/RobHofmann/HomeAssistant-GreeClimateComponent",
+  "documentation": "https://github.com/liwei19920307/gree",
   "dependencies": [],
   "codeowners": [
     "@robhofmann"
